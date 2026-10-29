@@ -1,32 +1,31 @@
-# Investments Dashboard
-The Investments Dashboard is a tool designed to help users track and analyze their investments. 
-It provides a user-friendly interface to visualize financial data, monitor portfolio performance, and make informed decisions.
+# Investments Dashboard 📈
+
+Track a portfolio in the browser: what you invested, what it is worth now, and the return of each investment.
+
+**Live demo:** https://mccprogrammer.github.io/investments-dashboard/
+
+![Investments Dashboard screenshot](docs/screenshot.png)
 
 ## Features
 
-- Portfolio tracking and management
-- Data visualization with charts and graphs
-- Performance analysis and insights
-- Loca storage for saving user data
+- Add, edit and remove investments
+- Totals for amount invested and current value
+- Charts of the portfolio and returns by percentage (Chart.js)
+- Data saved in `localStorage`; no account, nothing leaves the browser
 
-## Installation
+## Run it locally
 
-1. Clone the repository:
-  ```bash
-  git clone https://github.com/your-username/investments-dashboard.git
-  ```
-2. Navigate to the project directory:
-  ```bash
-  cd investments-dashboard
-  ```
+No build step: clone the repo and open `index.html` in a browser.
 
-## Usage
+```bash
+git clone https://github.com/MCCProgrammer/investments-dashboard.git
+open investments-dashboard/index.html
+```
 
-1. Open the HTML file in your web browser:
-  ```bash
-  index.html
-  ```
-2. You can make a shortcut of the indes.html file in your desktop to open the dashboard easily.
+## Built with
 
-## Contributing
-Contributions are welcome! Please follow these steps:
+HTML, CSS, plain JavaScript and [Chart.js](https://www.chartjs.org/).
+
+---
+
+One of my first web projects. More of my work at [mccprogrammer.com/projects](https://mccprogrammer.com/projects).
